@@ -24,3 +24,20 @@ O primeiro problema de negócio foi resolvido estruturando o DataFrame coletado 
 Para o segundo problema de negócio, os dados de estatística descritiva pertinentes (média, desvio padrão, mínimo e máximo) foram agrupados entre os estados, como mostrado na Figura à seguir: 
 
 ![estatistica_descritiva_produtividade](https://github.com/user-attachments/assets/569484c2-728f-492d-a7fb-1ff6ad4608b4)
+
+Para resolver o terceiro problema de negócio, foi aplicado um teste ANOVA para verificar se pelo menos um dos estados se diferenciava significativamente em termos de produtividade mensal de óleo. Como mostrado na figura a seguir, o teste ANOVA revelou um p-valor muito inferior a 0,05, considerando um nível de significância de 5%. Isso indica que, de fato, existe pelo menos um estado com produtividade mensal de óleo significativamente diferente dos demais.
+
+![ANOVA](https://github.com/user-attachments/assets/64fb4bba-5c2d-4dcd-b6ef-75796bc4cf30)
+
+Para a verificação da significância entre pares, foi utilizado o Teste de Tukey. Os resultados do teste mostraram que não há uma diferença significativa na produtividade mensal entre os estados da Bahia e Rio Grande do Norte. No entanto, Sergipe se destacou com uma produtividade significativamente maior do que os demais estados.
+
+![Tukey Test](https://github.com/user-attachments/assets/395c3e21-45ec-4a0d-9be5-e6324620661f)
+
+
+# Conclusão:
+
+Este estudo analisou a produtividade de petróleo extraído maritimamente nos estados do Nordeste do Brasil entre 2022 e 2024. A análise revelou que Sergipe é o maior produtor, seguido por Rio Grande do Norte e Bahia, com ausência de registros em outros estados da região.
+
+O teste ANOVA indicou diferenças significativas na produtividade mensal entre os estados, e o Teste de Tukey confirmou que Sergipe se destaca com uma produtividade significativamente maior do que os demais estados, enquanto Bahia e Rio Grande do Norte não apresentam diferenças significativas entre si.
+
+Esses resultados são importantes para a alocação eficiente de recursos e a formulação de estratégias para otimizar a produção.
